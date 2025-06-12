@@ -31,13 +31,14 @@ Let:
 - $\mu \sim \text{SN}(\mu_{\text{mkt}}, \tau \Sigma, \alpha_0)$ 
   (prior on expected returns)
 
-- \( P\mu \sim \text{SN}(q, \Omega, \alpha_1) \)  
+- $ P\mu \sim \text{SN}(q, \Omega, \alpha_1) $  
   (investor views with skewness)
 
 Then the posterior is:
-\[
+\begin{align*}
 \pi(\mu \mid \text{data}) \propto \text{SN}(\mu; \mu_{\text{mkt}}, \tau \Sigma, \alpha_0) \cdot \text{SN}(P\mu; q, \Omega, \alpha_1)
-\]
+\end{align*}
+
 
 The model supports:
 - Skewed priors and views
