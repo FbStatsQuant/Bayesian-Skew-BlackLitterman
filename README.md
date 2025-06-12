@@ -28,7 +28,7 @@ This repository implements a Bayesian extension of the Black-Litterman model usi
 
 Let:
 
-- \( \mu \sim \text{SN}(\mu_{\text{mkt}}, \tau \Sigma, \alpha_0) \)  
+- $\mu \sim \text{SN}(\mu_{\text{mkt}}, \tau \Sigma, \alpha_0)$ 
   (prior on expected returns)
 
 - \( P\mu \sim \text{SN}(q, \Omega, \alpha_1) \)  
