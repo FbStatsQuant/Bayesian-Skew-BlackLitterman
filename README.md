@@ -31,7 +31,7 @@ Let:
 - $\mu \sim \text{SN}(\mu_{\text{mkt}}, \tau \Sigma, \alpha_0)$ 
   (prior on expected returns)
 
-- $P\mu \sim \text{SN}(q, \Omega, \alpha_1)$  
+- $P \mu \sim \text{SN}(q, \Omega, \alpha_1)$  
   (investor views with skewness)
 
 Then the posterior is:
